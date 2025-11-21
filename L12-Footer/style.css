@@ -2,6 +2,11 @@
 LESSON 6: Setup & Hero Section
 =================================== */
 /* Reset & Base Styles */
+
+html {
+    scroll-behavior: smooth;
+    scroll-snap-type: mandatory;
+}
 * {
     margin: 0;
     padding: 0;
